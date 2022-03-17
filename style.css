@@ -10,6 +10,7 @@
    background-color: palevioletred;
    margin: auto;
    margin-bottom: 40px;
+   margin-top: 10px;
 }
 .container1{
    width: 1440px;
@@ -24,6 +25,7 @@
    margin: auto;
    margin-bottom: 40px;
    background-color: blue;
+   margin-bottom: 40px;
 }
 .clearfix::after{
    content: "";
@@ -50,4 +52,11 @@
    width: calc(60% - 20px);
    min-height: 400px;
    margin: auto 10px;
+}
+.pie-di-pagina{
+   margin: auto;
+   background-color: blueviolet;
+   width: 1440px;
+   min-height: 50px;
+   margin-bottom: 10px;
 }

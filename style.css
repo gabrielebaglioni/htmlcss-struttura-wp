@@ -2,29 +2,26 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-  
+}
+.container{
+   max-width: 1440px;
+   margin: auto;
 }
 /* header */
 .testa{
-   width: 1440px;
    min-height: 100px;
    background-color: palevioletred;
-   margin: auto;
    margin-bottom: 40px;
    margin-top: 10px;
 }
 /* main */
-.container1{
-   width: 1440px;
+.sezione1{
    min-height: 500px;
    background-color: lightgoldenrodyellow;
-   margin: auto;
    margin-bottom: 40px;
 }
 .container2{
-   width: 1440px;
    min-height: 500px;
-   margin: auto;
    margin-bottom: 40px;
    background-color: blue;
    margin-bottom: 40px;
@@ -34,19 +31,18 @@
    display: table;
    clear: both;
 }
+.cols{
+   padding: 20px 0;
+}
 .testa2{
-   width: 1440px;
    min-height:100px;
    background-color: lightskyblue;
-   margin-bottom: 20px;
-
 }
 .col-left, .col-right{
    background-color:lightskyblue ;
    float: left;
    width: 20%;
    min-height: 400px;
-   margin-bottom: 20px;
 }
 .col-midddle{
    background-color: lightskyblue;
@@ -56,10 +52,8 @@
    margin: auto 10px;
 }
 /* footer */
-.pie-di-pagina{
-   margin: auto;
+footer{
    background-color: blueviolet;
-   width: 1440px;
    min-height: 50px;
    margin-bottom: 10px;
 }
